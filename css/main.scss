@@ -21,7 +21,7 @@ body {
   float: left;
   font-family: 'Crete Round', serif;
   font-size: 2em;
-  padding: 20px;
+  margin: 25px;
   // padding-left: .5em;
   color: $color_blue;
 
@@ -68,7 +68,7 @@ a {
 }
 
 
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 650px) {
   // .header-logo {
     // margin: 20px 20px 20px 270px;
   // }
