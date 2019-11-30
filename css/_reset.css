@@ -52,4 +52,14 @@ table {
   border-spacing: 0;
 }
 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=_reset.css.map */
