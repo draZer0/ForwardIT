@@ -52,26 +52,38 @@ table {
   border-spacing: 0;
 }
 
-header {
-  position: relative;
-  background-color: #3A3A3A;
-  overflow: hidden;
-  min-width: 21.875em;
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
-h1 {
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: green;
+}
+
+.header-container {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 1px;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.header-logo {
+  float: left;
+  font-family: "Crete Round", serif;
   font-size: 2em;
   padding-left: 0.5em;
-  color: #222;
-  margin: 20px;
+  color: #0569a3;
+  margin: 20px 20px 20px 270px;
 }
 
-header h1 {
-  float: left;
-  color: white;
-}
-
-.menu-toggle {
+.nav-toggle {
   display: block;
   float: right;
   color: white;
@@ -86,20 +98,29 @@ ul {
   list-style-type: none;
   color: white;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-right: 270px;
 }
 
-.toggled {
+.nav-toggle__toggled {
   display: none;
 }
 
 li {
+  margin: 20px;
   padding: 1em 0 1em 1.4em;
   border-top: 1px grey solid;
 }
 
+a {
+  color: #7dcdfd;
+  transition: 0.5s;
+}
+a:hover {
+  color: #0099f0;
+}
+
 @media screen and (min-width: 512px) {
-  .menu-toggle {
+  .nav-toggle {
     display: none;
   }
 
