@@ -9,7 +9,7 @@ window.onload = function() {
   	var display = menuStyle.getPropertyValue('display');
 
     if (display === 'none') {
-      toggle.style.backgroundColor = "gray";
+      toggle.style.backgroundColor = "#eee";
       menu.style.display = "block";
     } else {
       toggle.style.backgroundColor = "transparent";
